@@ -58,10 +58,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
@@ -120,11 +116,11 @@ _Below is an example of how you can instruct your audience on installing and set
    ```sh
    npm install
    ```
-4. Enter your API in `/server/.env`
-   ```js
-   MONGODB_URI = "ENTER YOUR MONGODB";
-   PORT = "ENTER YOUR PORT";
-   SECRET = "ENTER YOUR SECRET FOR ENCRYPTION";
+4. Enter your environment variables in `/server/.env`
+   ```sh
+   MONGODB_URI="ENTER YOUR MONGODB";
+   PORT="ENTER YOUR PORT";
+   SECRET="ENTER YOUR SECRET FOR ENCRYPTION";
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
